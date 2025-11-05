@@ -13,8 +13,10 @@
 |---|---|---|
 | macOS / Linux | `./gradlew clean jar` | `java -jar build/libs/RTS-1.0.0.jar` |
 | Windows | `gradlew.bat clean jar` | `java -jar build/libs/RTS-1.0.0.jar` |
-# 최소 요건
-JDK 17+ (Gradle Wrapper 포함)
+
+
+### 최소 요건
+|JDK 17+ (Gradle Wrapper 포함)|
 
 
 ## 핵심 파일/클래스 역할(필수 요약)
