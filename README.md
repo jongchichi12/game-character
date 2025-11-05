@@ -1,19 +1,18 @@
-## 실행 방법(필수)
-
 ### Gradle로 바로 실행
-macOS / Linux
-./gradlew clean run
-windows
-gradlew.bat clean run
+
+| OS | 명령어 |
+|---|---|
+| macOS / Linux | `./gradlew clean run` |
+| Windows | `gradlew.bat clean run` |
+
+---
 
 ### JAR로 실행
-macOS / Linux
-./gradlew clean jar
-java -jar build/libs/RTS-1.0.0.jar
-windows
-gradlew.bat clean jar
-java -jar build/libs/RTS-1.0.0.jar
 
+| OS | 빌드 | 실행 |
+|---|---|---|
+| macOS / Linux | `./gradlew clean jar` | `java -jar build/libs/RTS-1.0.0.jar` |
+| Windows | `gradlew.bat clean jar` | `java -jar build/libs/RTS-1.0.0.jar` |
 # 최소 요건
 JDK 17+ (Gradle Wrapper 포함)
 
