@@ -2,7 +2,6 @@
 
 ### Gradle로 바로 실행
 macOS / Linux
-bash
 ./gradlew clean run
 windows
 gradlew.bat clean run
